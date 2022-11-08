@@ -1,0 +1,78 @@
+@media screen and (max-width: 1023px) {
+    .wrapper {
+        padding: 0;
+        width: 100%;
+        overflow: hidden;
+        position: relative;
+    }
+    .nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .nav > .nav-item:nth-child(2) {
+        display: none !important;
+    }
+    .nav > .nav-item {
+        width: auto !important;
+        scale: 0.8;
+    }
+    .wrapper > .title {
+        font-size: 56px;
+    }
+    .title > .sub-title {
+        top: 180px;
+        font-size: 28px;
+    }
+    .title > .title-bg1 {
+        display: none;
+    }
+    .wrapper > .title-bg2 {
+        display: block;
+        position: absolute;
+        top: 24px;
+        z-index: -2;
+        width: 100%;
+    }
+    .wrapper > .ad-img {
+        min-width: 1200px;
+        scale: 0.5;
+        margin-left: -115%;
+        margin-top: -150px;
+        margin-bottom: -200px;
+    }
+    .ad-img .col-9 .btn {
+        display: block;
+    }
+    .ad-img .col-3 .btn {
+        display: none;
+    }
+    .biography .card-text {
+        width: auto;
+        height: 200px;
+    }
+    .biography .btn {
+        width: 75%;
+    }
+    .biography > h1 {
+        font-size: 32px;
+    }
+    .biography > p {
+        font-size: 18px;
+    }
+    .biography  br {
+        display: none;
+    }
+    .pricing > h1 {
+        font-size: 36px;
+    }
+    .pricing > h4 {
+        font-size: 24px;
+    }
+    .footer {
+        display: none;
+    }
+    .mbi-footer {
+        display: block;
+    }
+}

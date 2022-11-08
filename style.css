@@ -1,0 +1,242 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 62.5%;
+}
+
+li {
+    list-style: none;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn:hover {
+    background-color:antiquewhite;
+}
+
+.btn-fix{
+    border-radius: 999px;
+    background: #6C5CE7;
+}
+
+.font-12{
+    font-size: 12px;
+}
+
+.font-14{
+    font-size: 14px;
+}
+
+.font-18{
+    font-size: 18px;
+}
+
+.font-32 {
+    font-size: 32px;
+}
+
+.font-24 {
+    font-size: 24px;
+}
+
+.font-32 {
+    font-size: 32px;
+}
+
+.font-48 {
+    font-size: 48px;
+}
+
+.font-64{
+    font-size: 64px;
+}
+
+.color-purple {
+    color: #6C5CE7;
+}
+
+.bg-purple {
+    background-color: #6C5CE7;
+}
+
+/* wrapper */
+.wrapper {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 110px;
+}
+/* nav */
+
+.nav {
+    box-shadow: 0 2px 6px #6c757d;
+    background-color: #fff;
+}
+
+.nav-icon > img {
+    width: 70px;
+    height: 64px;
+    transform: translateY(4%);
+}
+
+.nav-icon > span {
+    font-size: 48px; 
+}
+
+.nav  .nav-link {
+    color: #6C5CE7 ;
+    font-size: 18px;
+}
+
+.nav  .nav-link:hover {
+    color: black;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.nav > .btn {
+    scale: 2.0;
+}
+
+.sign-in > .btn {
+    font-size: 24px;
+    background-color: #6C5CE7;
+    border: none;
+    width: 170px;
+    height: 64px;
+    line-height: 1.8;
+    border-radius: 999px;
+}
+
+/* title */
+
+.title {
+    position: relative;
+    max-width: 1170px;
+    margin: 150px auto 190px;
+    height: 104px;
+    font-size: 96px;
+}
+
+.title > span {
+    position: relative;
+    color: red;
+}
+
+.title span img {
+    position: absolute;
+    width: 100%;
+    top: 60%;
+    left: 0;
+    z-index: -1;
+}
+
+.title > .title-bg1{
+    position: absolute;
+    top: -146%;
+    left: 44%;
+    z-index: -2;
+    height: 780px;
+}
+
+.wrapper > .title-bg2 {
+    display: none;
+}
+
+.title > .sub-title {
+    position: absolute;
+    top: 120px;
+    max-width: 770px;
+    height: 80px;
+    font-size: 64px;
+}
+
+/* ad-img */
+.card-body > *:first-child {
+    margin-top: 50%;
+}
+
+.ad-img .col-9 .btn {
+    display: none;
+}
+
+/* biography */
+
+.biography{
+    /* margin: 160px 135px; */
+    margin: 160px 0;
+}
+
+.biography .card-img-top {
+    margin: 30px 0;
+}
+
+.biography .card-text {
+    width: 250px;
+    height: 120px;
+}
+
+.biography .btn {
+    width: 50%;
+    height: 48px;
+    color: #6C5CE7;
+    border-radius: 16px;
+}
+
+/* Pricing */
+.pricing {
+    margin: 130px 0;
+}
+
+.pricing > h4 {
+    margin-bottom: 40px;
+}
+
+.pricing > h4 img {
+    width: 100%;
+    top: 70%;
+    left: 0;
+    z-index: -1;
+}
+
+.pricing .list-group {
+    height: 300px;
+}
+
+.pricing .btn {
+    height: 64px;
+    border-radius: 16px;
+}
+
+/* footer */
+.footer input {
+    background-color: #adadad4f;
+    height: 48px;
+    border: none;
+    border-radius: 20px;
+}
+
+.footer textarea {
+    background-color: #adadad4f;
+    height: 60px;
+    border: 1px solid #6C5CE7;
+    border-radius: 20px;
+}
+
+.footer form button {
+    height: 60px;
+    color: white;
+    border-radius: 16px;
+}
+
+.mbi-footer {
+    display: none;
+}
